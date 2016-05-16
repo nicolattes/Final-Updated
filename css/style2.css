@@ -1,0 +1,27 @@
+/* HOMEPAGE */
+/* image scroll */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 3em;
+    padding-top: 10px;
+}
+
+#scroll {
+    height: 100%;
+    overflow-x: scroll;    
+    white-space: nowrap;
+    width: 100%;
+    padding-top: 1em;
+}
+
+#scroll img {
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 2px;
+    margin:0;
+}
+
